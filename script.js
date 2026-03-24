@@ -248,8 +248,8 @@ function createExpenseItem(expense, index) {
         <span class="name">${expense.name}</span>
         <span class="amount">${expense.amount}</span>
         <div class="actions">
-            <button class="btn-icon edit" onclick="editExpense(${expense.id})">✏️</button>
-            <button class="btn-icon delete" onclick="deleteExpense(${expense.id})">🗑️</button>
+            <button class="btn-icon edit" onclick="editExpense(${expense.id})">Редактировать</button>
+            <button class="btn-icon delete" onclick="deleteExpense(${expense.id})">Удалить</button>
         </div>
     `
 
